@@ -10,6 +10,12 @@ python = "^3.12"
 black = "^24.8.0"
 isort = "^5.13.2"
 flake8 = "^7.1.1"
+pandas = "^2.2.2"
+sqlalchemy = "^2.0.32"
+python-dotenv = "^1.0.1"
+yfinance = "^0.2.41"
+psycopg2 = "^2.9.9"
+taskipy = "^1.13.0"
 
 
 [build-system]
@@ -18,3 +24,4 @@ build-backend = "poetry.core.masonry.api"
 
 [tool.taskipy.tasks]
 format = "black . && isort ."
+export_requirements = "poetry export --without-hashes --format=requirements.txt > requirements.txt"
