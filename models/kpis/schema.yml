@@ -1,0 +1,24 @@
+version: 2
+
+sources:
+  - name: dbpostgres_ed25
+    schema: public
+    tables:
+      - name: stg_commodities
+
+        columns:
+        - name: open_price
+
+        - name: ticker_symbol
+
+        - name: close_price
+
+        - name: high_price
+
+        - name: low_price
+
+        - name: volume
+
+        - name: stock_splits
+
+        - name: dividend_amount

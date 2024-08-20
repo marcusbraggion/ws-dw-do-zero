@@ -1,0 +1,32 @@
+version: 2
+
+sources:
+  - name: dbpostgres_ed25
+    schema: public
+    tables:
+      - name: commodities
+
+        columns:
+        - name: Open
+          description: Open price
+
+        - name: simbolo
+          description: Ticker symbol
+
+        - name: Close
+          description: Open price
+
+        - name: High
+          description: High price
+
+        - name: Low
+          description: Low price
+
+        - name: Volume
+          description: Volume
+
+        - name: Stock Splits
+          description: Stock split factor
+
+        - name: Dividends
+          description: Dividend amount
