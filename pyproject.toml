@@ -7,7 +7,6 @@ readme = "README.md"
 
 [tool.poetry.dependencies]
 python = "^3.12"
-black = "^24.8.0"
 isort = "^5.13.2"
 flake8 = "^7.1.1"
 pandas = "^2.2.2"
@@ -16,6 +15,8 @@ python-dotenv = "^1.0.1"
 yfinance = "^0.2.41"
 psycopg2 = "^2.9.9"
 taskipy = "^1.13.0"
+dbt-postgres = "^1.8.2"
+black = "^24.8.0"
 dbt = "^1.0.0.38.10"
 
 
